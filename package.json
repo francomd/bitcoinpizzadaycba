@@ -1,0 +1,17 @@
+{
+  "license": "MIT",
+  "engines": {
+    "node": "^14.17.0"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3",
+    "autoprefixer": "^9",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
+}
