@@ -9,7 +9,7 @@ body {
   background-color: #063a23;
   background-image: url("../img/pattern.svg");
   background-repeat: repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   /* animate background move vertically */
   animation: move 10s linear infinite;
