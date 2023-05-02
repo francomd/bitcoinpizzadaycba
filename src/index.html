@@ -11,8 +11,107 @@
   </head>
 
   <body>
-    <main>
-      <h1>Se vienen cositas ₿🍕🍻</h1>
+    <main class="h-screen container md:px-16 mx-auto">
+      <section class="grid md:grid-cols-2 gap-8 h-full">
+        <div class="h-full flex flex-col justify-center md:order-last">
+          <img
+            draggable="false"
+            src="./img/btc-pizza-day-logo.svg"
+            alt="bitcoin pizza day córdoba"
+            width="400"
+            class="w-4/5 md:w-4/5 z-10 mb-8 mx-auto md:mx-0 mt-12 md:-ml-8 md:-mt-8"
+          />
+          <div class="z-10 flex flex-col items-center md:block">
+            <p
+              class="text-white text-xl text-center md:text-left md:text-2xl mb-12 px-8 md:px-0 hidden md:block"
+            >
+              Cerramos la computadora por un rato y nos juntamos a festejar la
+              historia y evolución de Bitcoin.
+            </p>
+            <ul class="flex flex-col gap-2 px-8 md:px-0">
+              <li class="flex gap-2">
+                <img
+                  draggable="false"
+                  src="./img/icons/calendar-icon.svg"
+                  alt="calendar icon"
+                />
+                <a
+                  href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230522T220000Z%2F20230523T025900Z&details=Cerramos%20la%20computadora%20por%20un%20rato%20y%20nos%20juntamos%20a%20festejar%20la%20historia%20y%20evoluci%C3%B3n%20de%20Bitcoin.%0A%0AMusica%20en%20vivo%2C%20pizza%20libre%2C%20arte%20y%20POAPs&location=Brobar%2C%20Belgrano%20647%2C%20X5000%20C%C3%B3rdoba%2C%20Argentina&text=Bitcoin%20Pizza%20Day%20C%C3%B3rdoba"
+                  title="Save Event in my Calendar"
+                  target="_blank"
+                >
+                  <span class="text-lg text-white"> 22 DE MAYO, 19 HS </span>
+                </a>
+              </li>
+              <li class="flex gap-2">
+                <img
+                  draggable="false"
+                  src="./img/icons/location-icon.svg"
+                  alt="location icon"
+                />
+                <a href="https://goo.gl/maps/5h3yd8fq62y9QSan6" target="_blank">
+                  <span class="text-lg text-white hidden md:block">
+                    BROBAR GÜEMES. Belgrano 647, Córdoba.
+                  </span>
+                  <span class="text-lg text-white block md:hidden">
+                    BROBAR GÜEMES<br />Belgrano 647, Córdoba.
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <a
+              href="#welook-event"
+              target="_blank"
+              class="px-8 py-4 bg-orange-600 text-white text-md text-center md:text-xl font-bold rounded-full mt-12 block w-max mx-auto md:mx-0 animation-shake bubbly-button"
+            >
+              RESERVÁ TU ENTRADA GRATIS
+            </a>
+          </div>
+        </div>
+        <div class="h-full flex flex-col justify-center items-center gap-8">
+          <div class="relative w-4/5">
+            <img
+              draggable="false"
+              src="./img/btc-pizza-illustration.svg"
+              alt="illustration"
+            />
+            <img
+              draggable="false"
+              src="./img/eye.gif"
+              alt="eye gif"
+              class="absolute top-0 left-0"
+            />
+          </div>
+          <img
+            draggable="false"
+            src="./img/description.svg"
+            alt="Musica en vivo, pizza libre, arte y POAPs"
+            width="400"
+            class="w-2/3 mb-8"
+          />
+          <div class="flex flex-col items-center">
+            <div class="flex gap-8">
+              <img
+                draggable="false"
+                src="./img/sponsors/welook-logo.svg"
+                alt="welook"
+              />
+              <img
+                draggable="false"
+                src="./img/sponsors/dappos-logo.svg"
+                alt="dappos"
+              />
+            </div>
+            <h4
+              class="text-sm tracking-widest text-white underline underline-offset-2 mt-4 mb-24 md:mb-0"
+            >
+              <a href="mailto:matigallardo123@gmail.com">
+                Quiero ser Sponsor
+              </a>
+            </h4>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
   <script src="./js/main.js"></script>
