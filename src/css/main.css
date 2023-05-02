@@ -31,6 +31,18 @@ body {
   --button-text-color: #fff;
 }
 
+@media screen and (max-height: 700px) and (min-height: 600px) and (min-width: 1200px) {
+  .logo {
+    max-width: 360px;
+  }
+
+  .illustration {
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
 .bubbly-button {
   display: inline-block;
   position: relative;
